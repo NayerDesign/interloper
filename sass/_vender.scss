@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+        background: url() no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+}
+
+
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+body {font-size: 62.5%;}
+
+p{font-weight: 500;}
+
+h1, h2, h3, h4, h5, h6{font-weight: 800;}
+
+input[type="submit"] {cursor: pointer; transition: 0.5s;}
+a{transition: 0.5s; }

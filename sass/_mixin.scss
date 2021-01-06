@@ -1,0 +1,184 @@
+@mixin align-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin myButton {
+        box-shadow: 0px 1px 0px 0px #fff6af;
+        background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+        background-color: #ffec64;
+        border-radius: 6px;
+        border: 1px solid #ffaa22;
+        display: inline-block;
+        cursor: pointer;
+        color: #333333;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #ffee66;
+        & :hover {
+            background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+            background-color: #ffab23;
+            &:active {
+                position: relative;
+                top: 1px;
+            }
+        }
+    }
+
+
+
+@mixin subButton {
+    font-size: .9rem;
+        background-color: #2E82D7;
+        background-image: linear-gradient(#0051a1, #2ec9d7);
+        height: 3rem;
+        color: #FFFFFF;
+        width: 9rem;
+        padding: .2rem;
+        margin: 2rem;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+        // & .subButton:hover {
+        //     border: solid #337FED 1px;
+        //     background: #1E62D0;
+        //     background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+        //     background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+        //     background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+        //     background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+        //     background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+        //     -webkit-border-radius: 20px;
+        //     -moz-border-radius: 20px;
+        //     border-radius: 20px;
+        //     text-decoration: none;
+        // }
+    }
+
+    
+@mixin search {
+    #container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        & .form_group {
+            background: #ffffff;
+            display: flex;
+            width: 39rem;
+            height: 3rem;
+            padding: 1rem;
+            border-radius: 30rem;
+            box-shadow: 0rem .2rem .4rem 0rem rgba(0, 1, 110, 0.5);
+            margin: 2rem 0rem 0rem 0rem;
+
+            & .dropdown {
+                position: relative;
+                width: 18rem;
+                padding-left: .6rem;
+                color: black;
+                border-right: .1rem solid #313131;
+                cursor: pointer;
+
+                & .default_option {
+                    padding: -1rem 5rem;
+
+                    & .dropdown_list ul {
+                        list-style: none;
+                        position: absolute;
+                        background: #ffffff;
+                        color: darkslategray;
+                        width: 9.5rem;
+                        border-radius: .5rem;
+                        display: none;
+
+                        & .dropdown_list ul li {
+                            padding: 1rem 1rem 1rem 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dropdown::before {
+        content: "";
+        // border-width: .5rem .5rem 0rem .5rem;
+        // border-style: solid;
+        // border-color: darkviolet transparent;
+        position: absolute;
+    }
+
+    .dropdown ul li::before {
+        content: "";
+        border-width: 0rem .5rem .5rem .5rem;
+        border-style: solid;
+        border-color: darkviolet transparent;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .dropdown ul li:hover {
+        color: #000;
+        border-color: #cacaca;
+        font-weight: bold;
+        border-bottom: .1rem solid #313131;
+        border-right: .1rem solid #313131;
+    }
+
+    .search {
+        width: 60rem;
+        height: 100%;
+        & .search_input {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            padding: 0 5rem;
+            color: #000;
+            font-weight: 100;
+    }
+        & .btn {
+            background-color: #ffffff;
+            width: 5rem;
+            height: 100%;
+            border: 0;
+            cursor: pointer;
+            margin-top: .3rem;
+            & .btn .fa-search {
+                font-size: 5rem;
+                color: rgb(89, 0, 255);
+            }
+
+            & .btn .fa-search:hover {
+                font-size: 2.2rem;
+                color: rgb(54, 2, 151);
+            }
+        }
+    }
+
+}
+
+
+@mixin ecom-comp-aid {
+    .comp_banner_area{
+        width: 100%;
+        
+    }
+}
+
+@mixin clip_btn {
+    clip-path: polygon(0 0, 78% 0, 100% 100%, 0% 100%);
+    color: #ff9d20;
+    background-color: #000000;
+    padding: 1em 2.5em 2.5em 1em;
+    width: 7rem; height: 1.5rem;
+    border: none;
+}
+
