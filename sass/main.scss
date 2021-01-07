@@ -5,7 +5,7 @@
 
 // back-web-img
 .back-web-img {
-    background-image: url(/img/back-web_page.jpg);background-repeat: no-repeat;
+    background-image: url(./img/back-web_page.jpg);background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 0;
     
@@ -14,7 +14,7 @@
 // header_area
 #header_area {
     .img_back {
-        background-image: url(/img/top-backgroungsmm.jpg);
+        background-image: url(./img/top-backgroungsmm.jpg);
         background-repeat: no-repeat;
         width: 100%;
         position: relative;
@@ -25,7 +25,7 @@
     }
     & .banner {
             @include align-flex-center;
-            background-image: url(/img/background-for-top-banner.png);
+            background-image: url(./img/background-for-top-banner.png);
             background-repeat: no-repeat;
             width: 100%;
             position: relative;
@@ -84,7 +84,7 @@
 
 // hotdeal_backgroung
 #hotdeal_backgroung {
-    background-image: url(/img/hotdeal_backgroung.jpg);
+    background-image: url(./img/hotdeal_backgroung.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: -2rem 0 0 0rem;
@@ -112,7 +112,7 @@
 .multimedia_banner {
     margin: -6rem 0 0 0rem;
     & .bk_img_cam {
-        background-image: url(/img/cam-left-back-img.jpg);
+        background-image: url(./img/cam-left-back-img.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         margin: 0;
@@ -120,7 +120,7 @@
         color: #fff;
     }
     & .bk_img_spkr {
-        background-image: url(/img/spkr-right-img.jpg);
+        background-image: url(./img/spkr-right-img.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         margin: 0;
@@ -135,7 +135,7 @@
 
 // Deal of the day 
 .deal_background {
-    background-image: url(/img/deal-of-the-day.jpg);
+    background-image: url(./img/deal-of-the-day.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 3rem 0rem 0rem 0rem;
@@ -179,7 +179,7 @@
 
 // discount_banner
 .discount_banner {
-    background-image: url(/img/huge-descount-banner.PNG);
+    background-image: url(./img/huge-descount-banner.PNG);
     background-repeat: no-repeat;
     // height: 100%;
     // width: 100%;
@@ -188,7 +188,7 @@
 
 // slider_back
 #slider_back_img {
-    background-image: url(/img/slider-back.png);
+    background-image: url(./img/slider-back.png);
     background-repeat: no-repeat;
     margin: 3rem 0rem 3rem 0rem;
     padding: 3rem;
@@ -233,7 +233,7 @@
 
 // footer area
 .center-content {
-background-image: url(/img/footer.jpg);
+background-image: url(./img/footer.jpg);
     position: relative;
     width: 100%;
     height: 17rem;
